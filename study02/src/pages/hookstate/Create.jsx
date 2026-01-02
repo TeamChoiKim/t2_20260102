@@ -4,8 +4,7 @@ const Create = () => {
   const [data, setData] = useState({ name : "", email : "", pwd : "", gender : true })
   const [savedata, setSavedata] = useState([])
   const onChange = (e) => {
-    const { name , value } = e.target;
-    setData({...data, [name] : value })
+    setData({...data, [e.target.name] : e.target.value })
   }
   const SubmitEvent = e => {
     e.preventDefault()
