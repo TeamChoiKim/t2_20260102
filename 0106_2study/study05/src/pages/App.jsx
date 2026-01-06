@@ -5,7 +5,7 @@ import "@/list.css"
 import List from "./List.jsx"
 import Create from "./Create.jsx"
 import Detail from "./Detail.jsx"
-import Update from "./Update.jsx"
+import Update from ".//Update.jsx"
 import { NotFound, Footer } from "./Not_Footer.jsx"
 
 const Nav = () => {
